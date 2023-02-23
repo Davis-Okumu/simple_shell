@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include <stdlib.h>
 
 /**
  * Main - Simple hello world
@@ -8,11 +8,6 @@
  */
 int main ()
 {
-	char hello[] = 'h', 'e', 'l', 'l', 'w', 'o', 'r', 'l', 'd';
-
-	for(i = 0; i < hello[i]; i++)
-	{
-		_putchar(hello[i]);
-	}
+	printf("Hello from Kenya");
 	return (0);
 }
